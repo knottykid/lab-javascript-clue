@@ -89,7 +89,7 @@ At last, we are ready to reveal the mystery.
 
 Declare a function named `revealMystery` that receives an _envelope_ `object` (such as the one returned by `pickMystery`) as the single argument, and returns a reveal message in the following format:
 
-**\<FIRST NAME\> \<LAST NAME\> killed Mr. Boddy using the \<WEAPON\> in the \<ROOM\>!**
+**\<FIRST NAME\> \<LAST NAME\>   \<WEAPON\> in the \<ROOM\>!**
 
 ## Extra Resources
 

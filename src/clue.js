@@ -2,8 +2,7 @@
 
 // Suspects Collection
 const suspectsArray = [
-  {
-    mrGreen: 
+  
       {
         firstName: "Jacob",
         lastName: "Green",
@@ -13,10 +12,9 @@ const suspectsArray = [
         image:
           "https://pbs.twimg.com/profile_images/506787499331428352/65jTv2uC.jpeg",
         color: "green",
-      }
+    
   },
-  {
-    drOrchid: 
+
       {
         firstName: "Doctor",
         lastName: "Orchid",
@@ -25,10 +23,9 @@ const suspectsArray = [
         description: "PhD in plant toxicology. Adopted daughter of Mr. Boddy",
         image: "http://www.radiotimes.com/uploads/images/Original/111967.jpg",
         color: "white",
-      }
+  
   },
-   {
-    profPlum: 
+   
       {
         firstName: "Victor",
         lastName: "Plum",
@@ -38,10 +35,9 @@ const suspectsArray = [
         image:
           "https://66.media.tumblr.com/ee7155882178f73b3781603f0908617c/tumblr_phhxc7EhPJ1w5fh03_540.jpg",
         color: "purple",
-      }
+     
   },
-  {
-    missScarlet: 
+  
       {
         firstName: "Kasandra",
         lastName: "Scarlet",
@@ -50,11 +46,10 @@ const suspectsArray = [
         description: "She is an A-list movie star with a dark past",
         image: "https://www.radiotimes.com/uploads/images/Original/111967.jpg",
         color: "red",
-      }
+      
     
   },
-  {
-    mrsPeacock: 
+ 
       {
         firstName: "Eleanor",
         lastName: "Peacock",
@@ -64,11 +59,10 @@ const suspectsArray = [
           "She is from a wealthy family and uses her status and money to earn popularity",
         image: "https://metrouk2.files.wordpress.com/2016/07/mrs-peacock.jpg",
         color: "blue",
-      }
+      
     
   },
-  {
-    mrMustard: 
+ 
       {
         firstName: "Jack",
         lastName: "Mustard",
@@ -79,7 +73,7 @@ const suspectsArray = [
         image:
           "https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/07/04/08/unspecified-3.jpg",
         color: "yellow",
-      }
+      
   
   }
 ]
@@ -133,13 +127,12 @@ function pickMystery() {
 }
 
 // ITERATION 3
-function revealMystery() {
-  let envelope = {
+function revealMystery(envelope) {
+  /*let envelope = {
     suspect: selectRandom(suspectsArray),
     weapon: selectRandom(weaponsArray),
     room: selectRandom(roomsArray),
-  };
+  };*/
 
-  return `${envelope.suspect.firstName} ${envelope.suspect.lastName} 
-  killed Mr. Boddy using the ${envelope.weapon.name} in the ${envelope.room.name}!`;
+  return `${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr. Boddy using the ${envelope.weapon.name} in the ${envelope.room.name}!`;
 }
